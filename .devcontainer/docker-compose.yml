@@ -14,7 +14,7 @@ db:
 image: mysql:8.0
 restart: always
 environment:
-MYSQL_ROOT_PASSWORD: YourPasswordHere
+MYSQL_ROOT_PASSWORD: hyLom9con
 MYSQL_DATABASE: my_database
 ports:
 - &quot;3306:3306&quot;
@@ -26,4 +26,4 @@ ports:
 environment:
 PMA_HOST: db
 PMA_PORT: 3306
-MYSQL_ROOT_PASSWORD: YourPasswordHere
+MYSQL_ROOT_PASSWORD: hyLom9con
