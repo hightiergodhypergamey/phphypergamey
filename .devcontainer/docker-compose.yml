@@ -15,7 +15,7 @@ image: mysql:8.0
 restart: always
 environment:
 MYSQL_ROOT_PASSWORD: hyLom9con
-MYSQL_DATABASE: my_database
+MYSQL_DATABASE: jackson_db
 ports:
 - &quot;3306:3306&quot;
 phpmyadmin:
